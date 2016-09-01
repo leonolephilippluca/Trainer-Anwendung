@@ -8,6 +8,9 @@ import businessObjects.ITrainer;
 
 public interface ITrainerDao {
 	
+	/*
+	 * Interface Trainer Data Object
+	 */
 	public ITrainer create();
 	public void delete(ITrainer trainer);
 	public ITrainer first();
@@ -17,5 +20,6 @@ public interface ITrainerDao {
 	public void safe(ITrainer trainer);
 	public void select(List<ITrainer> trainerList);
 	public ITrainer select(int id);
+	
 	
 }
