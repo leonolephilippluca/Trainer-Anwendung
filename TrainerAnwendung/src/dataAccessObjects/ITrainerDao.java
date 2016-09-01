@@ -19,7 +19,6 @@ public interface ITrainerDao {
 	public ITrainer previous(ITrainer trainer);
 	public void safe(ITrainer trainer);
 	public void select(List<ITrainer> trainerList);
-	public ITrainer select2(int id);
-	
+	public ITrainer select(int id);
 	
 }
