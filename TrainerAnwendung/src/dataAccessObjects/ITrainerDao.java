@@ -21,4 +21,5 @@ public interface ITrainerDao {
 	public void select(List<ITrainer> trainerList);
 	public ITrainer select(int id);
 	
+	
 }
