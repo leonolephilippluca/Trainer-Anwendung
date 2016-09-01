@@ -1,5 +1,9 @@
 package dataLayer;
 
+
+import dataAccessObjects.ITrainerDao;
+import dataLayer.Settings.SettingsManager;
+
 public class DataLayerManager {
 	private static DataLayerManager instance = null;
 	
@@ -17,6 +21,7 @@ public class DataLayerManager {
 	}
 	
 	public static IDataLayer getDataLayer(){
+		SettingsManager sm = new SettingsManager();
 		if(dataLayer == null){
 			//dataLayer = new DataLayer //TODO: Abhängig von Settings
 		}
