@@ -1,7 +1,7 @@
 package businessObjects;
 
 public interface ITrainer {
-	
+	//Test von Luca
 	public int getId();
 	public String getName();
 	public void setName(String name);
