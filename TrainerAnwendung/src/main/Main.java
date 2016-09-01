@@ -1,10 +1,10 @@
-package Main;
+package main;
 
+import static util.ScreenSize.SCREEN_HEIGHT;
+import static util.ScreenSize.SCREEN_WIDTH;
+import gui.controls.TrainerBorderPane;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.TabPane;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -17,7 +17,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 
-		stage.setScene(new Scene(new TabPane(), 300, 300));
+		stage.setScene(new Scene(new TrainerBorderPane(), SCREEN_WIDTH*0.85, SCREEN_HEIGHT*0.725	));
 		stage.show();
 
 	}

@@ -1,22 +1,23 @@
 package gui.controls;
 
+import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 
 public class TrainerTab extends TabPane {
 
-	public TrainerTab() {
+	public TrainerTab(Tab tab) {
 		
 		setBoundaries();
-		initializeComponents();
+		initializeComponents(tab);
 		
 	}
 
 	private void setBoundaries() {
 	}
 
-	private void initializeComponents() {
+	private void initializeComponents(Tab tab) {
 		
 		TabPane tabPane = new TabPane();
-		tabPane.setClip(new TrainerViewGrid());
+		tabPane.getTabs().add(tab);
 	}
 }
