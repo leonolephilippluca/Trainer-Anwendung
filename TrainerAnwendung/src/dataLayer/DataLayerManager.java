@@ -21,7 +21,7 @@ public class DataLayerManager {
 	}
 	
 	public static IDataLayer getDataLayer(){
-		SettingsManager sm = new SettingsManager();
+		SettingsManager sm = SettingsManager.getInstance(); 
 		if(dataLayer == null){
 			//dataLayer = new DataLayer //TODO: Abhängig von Settings
 		}
