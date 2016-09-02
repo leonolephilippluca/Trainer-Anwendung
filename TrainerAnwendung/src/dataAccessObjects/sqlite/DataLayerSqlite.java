@@ -1,7 +1,12 @@
 package dataAccessObjects.sqlite;
 
-import dataLayer.IDataLayer;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import dataAccessObjects.interfaces.ITrainerDao;
+import dataLayer.IDataLayer;
+
 
 public class DataLayerSqlite implements IDataLayer {
 
@@ -10,5 +15,4 @@ public class DataLayerSqlite implements IDataLayer {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
 }
