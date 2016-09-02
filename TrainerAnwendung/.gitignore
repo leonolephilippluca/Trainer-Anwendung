@@ -1,2 +1,7 @@
 /bin/
 .project
+<<<<<<< HEAD
+=======
+.classpath
+.settings
+>>>>>>> branch 'master' of https://github.com/leonolephilippluca/Trainer-Anwendung

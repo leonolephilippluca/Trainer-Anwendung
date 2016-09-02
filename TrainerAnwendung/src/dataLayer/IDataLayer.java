@@ -1,6 +1,6 @@
 package dataLayer;
 
-import dataAccessObjects.ITrainerDao;
+import dataAccessObjects.interfaces.ITrainerDao;
 
 public interface IDataLayer {
 	public ITrainerDao getTrainerDao();
