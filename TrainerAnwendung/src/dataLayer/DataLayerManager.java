@@ -1,9 +1,10 @@
 package dataLayer;
 
 
-import dataAccessObjects.ITrainerDao;
+import dataAccessObjects.interfaces.ITrainerDao;
 import dataLayer.Settings.SettingsManager;
 
+@SuppressWarnings("unused")
 public class DataLayerManager {
 	private static DataLayerManager instance = null;
 	

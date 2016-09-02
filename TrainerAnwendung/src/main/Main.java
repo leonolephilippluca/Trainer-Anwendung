@@ -19,6 +19,5 @@ public class Main extends Application {
 
 		stage.setScene(new Scene(new TrainerBorderPane(), SCREEN_WIDTH*0.85, SCREEN_HEIGHT*0.725	));
 		stage.show();
-
 	}
 }
