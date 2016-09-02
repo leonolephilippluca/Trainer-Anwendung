@@ -1,6 +1,7 @@
 package dataLayer;
 
-import dataAccessObjects.interfaces.ITrainerDao;
+
+import dataAccessObjects.ITrainerDao;
 import dataLayer.Settings.SettingsManager;
 
 public class DataLayerManager {
